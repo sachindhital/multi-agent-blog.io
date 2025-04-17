@@ -1,0 +1,20 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python artifacts (although you don't store code here)
+__pycache__/
+*.py[cod]
+
+# Ignore any temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore venv (if somehow created)
+venv/
+llm/
+
+# Optional: Ignore IDE files
+.vscode/
+.idea/
